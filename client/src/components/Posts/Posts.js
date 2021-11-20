@@ -7,11 +7,9 @@ const classes = useStyles();
   return (
     <>
     <h1>Posts Components</h1>
-
     <Post/>
     <Post/>
     </>
   )
 }
-
 export default Posts
