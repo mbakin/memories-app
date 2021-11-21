@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26e88b26-bfce-406f-ab27-7a77e82d3533" name="Changes" comment="create redux structure">
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/actions/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/posts.js" afterDir="false" />
+    <list default="true" id="26e88b26-bfce-406f-ab27-7a77e82d3533" name="Changes" comment="create action creators">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Posts/Posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/posts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,7 @@
       <workItem from="1637417316890" duration="1350000" />
       <workItem from="1637418700556" duration="661000" />
       <workItem from="1637419643356" duration="3284000" />
-      <workItem from="1637489337226" duration="740000" />
+      <workItem from="1637489337226" duration="1605000" />
     </task>
     <task id="LOCAL-00001" summary="add styling">
       <created>1637418536394</created>
@@ -88,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637422183223</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="create action creators">
+      <created>1637490130984</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637490130984</updated>
+    </task>
+    <task id="LOCAL-00006" summary="create action creators">
+      <created>1637490184231</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637490184231</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +128,7 @@
     <MESSAGE value="add styling" />
     <MESSAGE value="create api folder" />
     <MESSAGE value="create redux structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="create redux structure" />
+    <MESSAGE value="create action creators" />
+    <option name="LAST_COMMIT_MESSAGE" value="create action creators" />
   </component>
 </project>
