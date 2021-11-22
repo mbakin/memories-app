@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26e88b26-bfce-406f-ab27-7a77e82d3533" name="Changes" comment="fix: material-ui justify attribute, rename `justifyContent`">
+    <list default="true" id="26e88b26-bfce-406f-ab27-7a77e82d3533" name="Changes" comment="fix: createPost fonksiyonu import">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/actions/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Form/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/posts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
       <workItem from="1637419643356" duration="3284000" />
       <workItem from="1637489337226" duration="1970000" />
       <workItem from="1637571520506" duration="159000" />
-      <workItem from="1637571695192" duration="6836000" />
+      <workItem from="1637571695192" duration="7412000" />
     </task>
     <task id="LOCAL-00001" summary="add styling">
       <created>1637418536394</created>
@@ -127,7 +125,28 @@
       <option name="project" value="LOCAL" />
       <updated>1637581315571</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="create a `createPost` function">
+      <created>1637582288643</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1637582288643</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add a `createPost` function in Form component">
+      <created>1637582356682</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1637582356682</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix: createPost fonksiyonu import">
+      <created>1637582732685</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1637582732685</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +173,10 @@
     <MESSAGE value="fix: has been blocked by CORS policy, and create selector" />
     <MESSAGE value="create Form component" />
     <MESSAGE value="fix: material-ui justify attribute, rename `justifyContent`" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: material-ui justify attribute, rename `justifyContent`" />
+    <MESSAGE value="create a `createPost` function" />
+    <MESSAGE value="add a `createPost` function in Form component" />
+    <MESSAGE value="fix: createPost fonksiyonu import" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: createPost fonksiyonu import" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
