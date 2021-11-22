@@ -1,4 +1,7 @@
-const { Posts } = require('../models/Posts'); 
+const express = require('express');
+const mongoose = require('mongoose');
+
+const { Posts } = require('../models/Posts');
 
 const getPosts = async (req, res) => {
   try {
@@ -16,9 +19,13 @@ const getPosts = async (req, res) => {
 } 
 
 const createPost = async (req, res) => {
-  const post = req.body;
+  const { title, message, creator, selectedFile, tags} = req.body;
 
-  const newPost = new Posts(post);
+  const newPost = new Posts({title,
+    message,
+    creator,
+    selectedFile,
+    tags});
 
   try {
     await newPost.save();
