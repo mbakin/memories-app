@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26e88b26-bfce-406f-ab27-7a77e82d3533" name="Changes" comment="fix: createPost fonksiyonu import">
+    <list default="true" id="26e88b26-bfce-406f-ab27-7a77e82d3533" name="Changes" comment="add a createPost function in reducers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reducers/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Form/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Posts/Posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/posts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +65,8 @@
       <workItem from="1637419643356" duration="3284000" />
       <workItem from="1637489337226" duration="1970000" />
       <workItem from="1637571520506" duration="159000" />
-      <workItem from="1637571695192" duration="7412000" />
+      <workItem from="1637571695192" duration="8399000" />
+      <workItem from="1637584363576" duration="1954000" />
     </task>
     <task id="LOCAL-00001" summary="add styling">
       <created>1637418536394</created>
@@ -146,7 +152,42 @@
       <option name="project" value="LOCAL" />
       <updated>1637582732685</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix: createPost fonksiyonu import">
+      <created>1637582768711</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1637582768711</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix: createPost fonksiyonu import">
+      <created>1637582789909</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1637582789909</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix: `createPost` fonksiyonu import (rename commit)">
+      <created>1637582833467</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1637582833467</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add a createPost function in reducers">
+      <created>1637582887677</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1637582887677</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add a createPost function in reducers">
+      <created>1637582909450</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1637582909451</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,17 +217,9 @@
     <MESSAGE value="create a `createPost` function" />
     <MESSAGE value="add a `createPost` function in Form component" />
     <MESSAGE value="fix: createPost fonksiyonu import" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: createPost fonksiyonu import" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/client/src/components/Form/Form.js</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="fix: `createPost` fonksiyonu import" />
+    <MESSAGE value="fix: `createPost` fonksiyonu import (rename commit)" />
+    <MESSAGE value="add a createPost function in reducers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add a createPost function in reducers" />
   </component>
 </project>
