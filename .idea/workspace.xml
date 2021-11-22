@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26e88b26-bfce-406f-ab27-7a77e82d3533" name="Changes" comment="fix: has been blocked by CORS policy, and create selector">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Form/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+    <list default="true" id="26e88b26-bfce-406f-ab27-7a77e82d3533" name="Changes" comment="create Form component">
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
       <workItem from="1637419643356" duration="3284000" />
       <workItem from="1637489337226" duration="1970000" />
       <workItem from="1637571520506" duration="159000" />
-      <workItem from="1637571695192" duration="5656000" />
+      <workItem from="1637571695192" duration="5840000" />
     </task>
     <task id="LOCAL-00001" summary="add styling">
       <created>1637418536394</created>
@@ -112,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637491142662</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="create Form component">
+      <created>1637581005655</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1637581005655</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +142,7 @@
     <MESSAGE value="create redux structure" />
     <MESSAGE value="create action creators" />
     <MESSAGE value="fix: has been blocked by CORS policy, and create selector" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: has been blocked by CORS policy, and create selector" />
+    <MESSAGE value="create Form component" />
+    <option name="LAST_COMMIT_MESSAGE" value="create Form component" />
   </component>
 </project>
