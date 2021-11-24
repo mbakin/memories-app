@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26e88b26-bfce-406f-ab27-7a77e82d3533" name="Changes" comment="add a createPost function in reducers">
+    <list default="true" id="26e88b26-bfce-406f-ab27-7a77e82d3533" name="Changes" comment="refactor: client files syntax">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/actions/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Form/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Posts/Posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/posts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +60,8 @@
       <workItem from="1637489337226" duration="1970000" />
       <workItem from="1637571520506" duration="159000" />
       <workItem from="1637571695192" duration="8399000" />
-      <workItem from="1637584363576" duration="1954000" />
+      <workItem from="1637584363576" duration="2406000" />
+      <workItem from="1637750581173" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="add styling">
       <created>1637418536394</created>
@@ -187,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637582909451</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fix: createPost function fixed on server-side">
+      <created>1637586567511</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1637586567511</updated>
+    </task>
+    <task id="LOCAL-00019" summary="refactor: client files syntax">
+      <created>1637586655665</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1637586655665</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +229,8 @@
     <MESSAGE value="fix: `createPost` fonksiyonu import" />
     <MESSAGE value="fix: `createPost` fonksiyonu import (rename commit)" />
     <MESSAGE value="add a createPost function in reducers" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a createPost function in reducers" />
+    <MESSAGE value="fix: createPost function fixed on server-side" />
+    <MESSAGE value="refactor: client files syntax" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: client files syntax" />
   </component>
 </project>
