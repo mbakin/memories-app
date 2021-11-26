@@ -31,7 +31,8 @@ const Form = ({ currentId, setCurrentId}) => {
   }
 
   const handleClear = () => {
-    
+    setCurrentId(null)
+    setPostData({ creator: '', title: '', message: '', tags: '', selectedFile: '' })
   }
 
 
