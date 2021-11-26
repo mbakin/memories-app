@@ -27,7 +27,7 @@ const Form = ({ currentId, setCurrentId}) => {
     } else {
       dispatch(createPost(postData))
     }
-
+    handleClear()
   }
 
   const handleClear = () => {
