@@ -40,11 +40,20 @@ const createPost = async (req, res) => {
 const updatePost = async (req, res) => {
   const { id: _id } = req.params;
   const post = req.body;
-  if(!mongoose.Types.ObjectId.isValid(_id)) return res.status(400).send("No post with that id")
+  if(!mongoose.Types.ObjectId.isValid(_id)) return res.status(404).send("No post with that id")
 
   const updatedPost = await Posts.findByIdAndUpdate(_id, { ...post, _id }, { new: true})
 
   res.json(updatedPost);
 }
 
-module.exports = { getPosts, createPost, updatePost }
+const deletePost = async (req, res) => {
+  const { id: _id } = req.params;
+  if(!mongoose.Types.ObjectId.isValid(_id)) return res.status(404).send("No post with that id")
+
+  await Posts.findByIdAndDelete(_id);
+
+  res.json({ message: "Post deleted" });
+}
+
+module.exports = { getPosts, createPost, updatePost, deletePost }
